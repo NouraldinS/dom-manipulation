@@ -4,7 +4,7 @@ research about DOM manipulation
 1.	Using javascript to create HTML elemnts
 
 To create a custom HTML element:
-  ```
+  ``` script
 	document.registerElement()
   ```
   registerElement() could be passed a String defining the name of that Element
