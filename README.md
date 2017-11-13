@@ -66,14 +66,11 @@ if for example we named the element 'p'? Would it act like the common paragraph 
   ```
   ```
   ```
+3.
 ``` text
-3. How would you add an <li> to <ul>?
-	ul.push(li)
-	**THATS IT ^\_^**
-  __haha__ sorry..
-
-
-	But here is the real way to add an <li> to <ul> is:
+How would you add an <li> to <ul>?
+To add an <li> to <ul> is by:
+```
 	``` javascript
 		function pushli(contents) {
 			var newli = document.registerElement('li');
