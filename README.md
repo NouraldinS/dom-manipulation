@@ -46,10 +46,10 @@ if for example we named the element 'p'? Would it act like the common paragraph 
 		// replace myAnchor in the parent node of myAnchor with mySpan
 		// select the parentNode of myAnchor, replace one child of this parent 'myAnchor' with mySpan
 	</script>
+```
 
-
-		/***OR***\
-
+		_***OR***_
+```HTML
 	// DOUBTFUL!!!
 	<script type="text/JavaScript">
 
