@@ -49,7 +49,7 @@ if for example we named the element 'p'? Would it act like the common paragraph 
   ```
 
 
-		_***OR***_
+		/***OR***\
   ``` HTML
 	// DOUBTFUL!!!
 	<script type="text/JavaScript">
