@@ -64,14 +64,12 @@ if for example we named the element 'p'? Would it act like the common paragraph 
     // outerHTML returns the contents+the tag
 	</script>
   ```
-  ```
-  ```
 3.
 ``` text
 How would you add an <li> to <ul>?
 To add an <li> to <ul> is by:
 ```
-``` javascript
+	```javascript
 		function pushli(contents) {
 			var newli = document.registerElement('li');
 			document.ul.appendChild(new newli());
