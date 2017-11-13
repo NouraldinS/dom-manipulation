@@ -46,9 +46,11 @@ if for example we named the element 'p'? Would it act like the common paragraph 
 		// replace myAnchor in the parent node of myAnchor with mySpan
 		// select the parentNode of myAnchor, replace one child of this parent 'myAnchor' with mySpan
 	</script>
+  ```
+
 
 		_***OR***_
-```HTML
+  ``` HTML
 	// DOUBTFUL!!!
 	<script type="text/JavaScript">
 
@@ -58,9 +60,10 @@ if for example we named the element 'p'? Would it act like the common paragraph 
 		// cought the element we want to replace
 	  Obj.outerHTML = str;
 		// replace the outerHTML with str which represents a new element
-		// while innerHTML returns the contents of the element, outerHTML returns the contents+the tag
+		// while innerHTML returns the contents of the element,
+    // outerHTML returns the contents+the tag
 	</script>
-```
+  ```
 
 3. How would you add an <li> to <ul>?
 	ul.push(li)
