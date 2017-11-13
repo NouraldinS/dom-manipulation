@@ -65,8 +65,9 @@ if for example we named the element 'p'? Would it act like the common paragraph 
 	</script>
   ```
   ```
+  ```
 
-3. How would you add an <li> to <ul>?
+3. How would you add an /<li> to /<ul>?
 	ul.push(li)
 	**THATS IT ^\_^**
   __haha__ sorry..
