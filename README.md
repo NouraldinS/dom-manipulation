@@ -71,7 +71,7 @@ if for example we named the element 'p'? Would it act like the common paragraph 
 How would you add an <li> to <ul>?
 To add an <li> to <ul> is by:
 ```
-	```javascript
+``` javascript
 		function pushli(contents) {
 			var newli = document.registerElement('li');
 			document.ul.appendChild(new newli());
