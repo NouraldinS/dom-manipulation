@@ -33,7 +33,7 @@ should be
 if for example we named the element 'p'? Would it act like the common paragraph element?
 
 2. Replacing an HTML element using .replaceChild(...) ->
-	``` HTML
+``` HTML
 	<script type="text/JavaScript">
 
 	  var myAnchor = document.getElementById("myAnchor");
